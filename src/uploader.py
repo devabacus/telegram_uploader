@@ -1,4 +1,5 @@
 import asyncio
+from httpcore import NetworkError
 from telegram import Bot
 from telegram.error import RetryAfter
 from src.logger import logger
