@@ -1,0 +1,90 @@
+2024-12-07 20:38:12,011 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-12-07 20:38:12,089 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-12-07 20:38:12,787 - INFO - Отправка файла: SS_WEB_SET_GALLERY_10_2000x.webp в топик 4342...
+2024-12-07 20:38:12,789 - INFO - Uploading file of 83338 bytes in 1 chunks of 131072
+2024-12-07 20:38:13,517 - INFO - Файл SS_WEB_SET_GALLERY_10_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:13,518 - INFO - Отправка файла: SS_WEB_SET_GALLERY_11_2000x.webp в топик 4342...
+2024-12-07 20:38:13,519 - INFO - Uploading file of 126730 bytes in 1 chunks of 131072
+2024-12-07 20:38:14,151 - INFO - Файл SS_WEB_SET_GALLERY_11_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:14,151 - INFO - Отправка файла: SS_WEB_SET_GALLERY_12_2000x.webp в топик 4342...
+2024-12-07 20:38:14,151 - INFO - Uploading file of 95692 bytes in 1 chunks of 131072
+2024-12-07 20:38:14,402 - INFO - Got difference for account updates
+2024-12-07 20:38:14,632 - INFO - Файл SS_WEB_SET_GALLERY_12_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:14,633 - INFO - Отправка файла: SS_WEB_SET_GALLERY_13_2000x.webp в топик 4342...
+2024-12-07 20:38:14,633 - INFO - Uploading file of 37710 bytes in 1 chunks of 131072
+2024-12-07 20:38:15,032 - INFO - Файл SS_WEB_SET_GALLERY_13_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:15,033 - INFO - Отправка файла: SS_WEB_SET_GALLERY_14_2000x.webp в топик 4342...
+2024-12-07 20:38:15,033 - INFO - Uploading file of 87280 bytes in 1 chunks of 131072
+2024-12-07 20:38:15,463 - INFO - Файл SS_WEB_SET_GALLERY_14_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:15,464 - INFO - Отправка файла: SS_WEB_SET_GALLERY_15_2000x.webp в топик 4342...
+2024-12-07 20:38:15,464 - INFO - Uploading file of 187462 bytes in 2 chunks of 131072
+2024-12-07 20:38:15,950 - INFO - Got difference for account updates
+2024-12-07 20:38:16,166 - INFO - Файл SS_WEB_SET_GALLERY_15_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:16,166 - INFO - Отправка файла: SS_WEB_SET_GALLERY_16_2000x.webp в топик 4342...
+2024-12-07 20:38:16,167 - INFO - Uploading file of 356460 bytes in 3 chunks of 131072
+2024-12-07 20:38:17,195 - INFO - Файл SS_WEB_SET_GALLERY_16_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:17,196 - INFO - Отправка файла: SS_WEB_SET_GALLERY_17_2000x.webp в топик 4342...
+2024-12-07 20:38:17,197 - INFO - Uploading file of 186148 bytes in 2 chunks of 131072
+2024-12-07 20:38:17,524 - INFO - Got difference for account updates
+2024-12-07 20:38:17,868 - INFO - Файл SS_WEB_SET_GALLERY_17_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:17,869 - INFO - Отправка файла: SS_WEB_SET_GALLERY_18_2000x.webp в топик 4342...
+2024-12-07 20:38:17,870 - INFO - Uploading file of 104116 bytes in 1 chunks of 131072
+2024-12-07 20:38:18,429 - INFO - Файл SS_WEB_SET_GALLERY_18_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:18,430 - INFO - Отправка файла: SS_WEB_SET_GALLERY_19_2000x.webp в топик 4342...
+2024-12-07 20:38:18,431 - INFO - Uploading file of 189462 bytes in 2 chunks of 131072
+2024-12-07 20:38:18,775 - INFO - Got difference for account updates
+2024-12-07 20:38:19,271 - INFO - Файл SS_WEB_SET_GALLERY_19_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:19,271 - INFO - Отправка файла: SS_WEB_SET_GALLERY_1_2000x.webp в топик 4342...
+2024-12-07 20:38:19,273 - INFO - Uploading file of 312926 bytes in 3 chunks of 131072
+2024-12-07 20:38:20,433 - INFO - Файл SS_WEB_SET_GALLERY_1_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:20,433 - INFO - Отправка файла: SS_WEB_SET_GALLERY_20_2000x.webp в топик 4342...
+2024-12-07 20:38:20,434 - INFO - Uploading file of 139418 bytes in 2 chunks of 131072
+2024-12-07 20:38:20,758 - INFO - Got difference for account updates
+2024-12-07 20:38:21,254 - INFO - Файл SS_WEB_SET_GALLERY_20_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:21,254 - INFO - Отправка файла: SS_WEB_SET_GALLERY_22_1780x.webp в топик 4342...
+2024-12-07 20:38:21,255 - INFO - Uploading file of 99672 bytes in 1 chunks of 131072
+2024-12-07 20:38:21,799 - INFO - Файл SS_WEB_SET_GALLERY_22_1780x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:21,799 - INFO - Отправка файла: SS_WEB_SET_GALLERY_23_2000x.webp в топик 4342...
+2024-12-07 20:38:21,800 - INFO - Uploading file of 68736 bytes in 1 chunks of 131072
+2024-12-07 20:38:22,094 - INFO - Got difference for account updates
+2024-12-07 20:38:22,427 - INFO - Файл SS_WEB_SET_GALLERY_23_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:22,428 - INFO - Отправка файла: SS_WEB_SET_GALLERY_24_2000x.webp в топик 4342...
+2024-12-07 20:38:22,429 - INFO - Uploading file of 117800 bytes in 1 chunks of 131072
+2024-12-07 20:38:23,218 - INFO - Файл SS_WEB_SET_GALLERY_24_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:23,218 - INFO - Отправка файла: SS_WEB_SET_GALLERY_25_2000x.webp в топик 4342...
+2024-12-07 20:38:23,218 - INFO - Uploading file of 155124 bytes in 2 chunks of 131072
+2024-12-07 20:38:23,520 - INFO - Got difference for account updates
+2024-12-07 20:38:23,899 - INFO - Файл SS_WEB_SET_GALLERY_25_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:23,899 - INFO - Отправка файла: SS_WEB_SET_GALLERY_26_2000x.webp в топик 4342...
+2024-12-07 20:38:23,900 - INFO - Uploading file of 112876 bytes in 1 chunks of 131072
+2024-12-07 20:38:24,398 - INFO - Файл SS_WEB_SET_GALLERY_26_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:24,398 - INFO - Отправка файла: SS_WEB_SET_GALLERY_2_2000x.webp в топик 4342...
+2024-12-07 20:38:24,400 - INFO - Uploading file of 139804 bytes in 2 chunks of 131072
+2024-12-07 20:38:24,668 - INFO - Got difference for account updates
+2024-12-07 20:38:24,999 - INFO - Файл SS_WEB_SET_GALLERY_2_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:25,000 - INFO - Отправка файла: SS_WEB_SET_GALLERY_3_2000x.webp в топик 4342...
+2024-12-07 20:38:25,001 - INFO - Uploading file of 72802 bytes in 1 chunks of 131072
+2024-12-07 20:38:25,461 - INFO - Файл SS_WEB_SET_GALLERY_3_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:25,462 - INFO - Отправка файла: SS_WEB_SET_GALLERY_4_2000x.webp в топик 4342...
+2024-12-07 20:38:25,462 - INFO - Uploading file of 96554 bytes in 1 chunks of 131072
+2024-12-07 20:38:25,765 - INFO - Got difference for account updates
+2024-12-07 20:38:26,113 - INFO - Файл SS_WEB_SET_GALLERY_4_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:26,113 - INFO - Отправка файла: SS_WEB_SET_GALLERY_5_2000x.webp в топик 4342...
+2024-12-07 20:38:26,113 - INFO - Uploading file of 45134 bytes in 1 chunks of 131072
+2024-12-07 20:38:26,612 - INFO - Файл SS_WEB_SET_GALLERY_5_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:26,612 - INFO - Отправка файла: SS_WEB_SET_GALLERY_6_2000x.webp в топик 4342...
+2024-12-07 20:38:26,613 - INFO - Uploading file of 118568 bytes in 1 chunks of 131072
+2024-12-07 20:38:26,977 - INFO - Got difference for account updates
+2024-12-07 20:38:27,130 - INFO - Файл SS_WEB_SET_GALLERY_6_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:27,130 - INFO - Отправка файла: SS_WEB_SET_GALLERY_7_2000x.webp в топик 4342...
+2024-12-07 20:38:27,131 - INFO - Uploading file of 104494 bytes in 1 chunks of 131072
+2024-12-07 20:38:27,705 - INFO - Файл SS_WEB_SET_GALLERY_7_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:27,705 - INFO - Отправка файла: SS_WEB_SET_GALLERY_8_2000x.webp в топик 4342...
+2024-12-07 20:38:27,706 - INFO - Uploading file of 283246 bytes in 3 chunks of 131072
+2024-12-07 20:38:28,135 - INFO - Got difference for account updates
+2024-12-07 20:38:28,617 - INFO - Файл SS_WEB_SET_GALLERY_8_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:28,618 - INFO - Отправка файла: SS_WEB_SET_GALLERY_9_2000x.webp в топик 4342...
+2024-12-07 20:38:28,619 - INFO - Uploading file of 62102 bytes in 1 chunks of 131072
+2024-12-07 20:38:29,022 - INFO - Файл SS_WEB_SET_GALLERY_9_2000x.webp успешно отправлен в топик 4342.
+2024-12-07 20:38:29,022 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-12-07 20:38:29,023 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
