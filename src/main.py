@@ -6,6 +6,7 @@ from .uploader import FileUploader
 from .bot import create_bot_application
 from .logger import logger
 
+
 async def main():
     bot = Bot(token=BOT_TOKEN)
     uploader = FileUploader(bot, GROUP_CHAT_ID, TOPIC_ID)
