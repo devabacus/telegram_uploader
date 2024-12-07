@@ -1,23 +1,28 @@
-# src/main.py
 import asyncio
 from telegram import Bot
-from .config import BOT_TOKEN, GROUP_CHAT_ID, TOPIC_ID, FILES_DIRECTORY
-from .uploader import FileUploader
-from .bot import create_bot_application
-from .logger import logger
+from src.config import BOT_TOKEN, GROUP_CHAT_ID, TOPIC_ID, FILES_DIRECTORY
+from src.uploader import FileUploader
+from src.bot import create_bot_application
+from src.logger import logger
 
-
-async def main():
-    bot = Bot(token=BOT_TOKEN)
+async def upload_files(bot):
+    """Функция для загрузки файлов."""
     uploader = FileUploader(bot, GROUP_CHAT_ID, TOPIC_ID)
-
-    # Загружаем файлы
     logger.info("Начинается загрузка файлов.")
     await uploader.upload_files(FILES_DIRECTORY)
 
-    # Запускаем бота
+def main():
+    """Основная функция для запуска загрузки и бота."""
+    bot = Bot(token=BOT_TOKEN)
     app = create_bot_application()
+
+    # Используем asyncio для выполнения загрузки перед запуском бота
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(upload_files(bot))
+
+    # Запускаем бота
+    logger.info("Бот успешно инициализирован.")
     app.run_polling()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
