@@ -1,38 +1,42 @@
 import asyncio
-from telegram_client import TelegramHandler
-from file_automation import FileAutomation
 from pathlib import Path
+from telethon import TelegramClient
+from config import API_ID, API_HASH, PHONE_NUMBER, ARCHIVE_EXTENSIONS, IMAGE_EXTENSIONS
+from logger import logger
+from uploader import upload_files_with_retry
 
-async def main():
-    # Настройки
-    telegram_window_name = "Telegram"  # Название окна Telegram
-    directory = r"E:\library\3d models\3DSky Pro 3D-Models Collection April 2024\1234"
-    files = Path(directory).glob("*")
 
-    # Инициализация
-    tg_handler = TelegramHandler()
-    file_automation = FileAutomation(telegram_window_name)
+async def send_files(directory):
+    client = TelegramClient("session_name", API_ID, API_HASH)
+    logger.info("Инициализация клиента Telegram...")
+    await client.start(PHONE_NUMBER)
+    logger.info("Клиент Telegram успешно запущен.")
 
-    await tg_handler.start()
+    # Сортируем файлы по типу
+    directory_path = Path(directory)
+    archives = [f for f in directory_path.iterdir() if f.suffix.lower() in ARCHIVE_EXTENSIONS]
+    images = [f for f in directory_path.iterdir() if f.suffix.lower() in IMAGE_EXTENSIONS]
 
-    for file_path in files:
-        if not file_path.is_file():
-            continue
+    logger.info(f"Найдено {len(archives)} архивов и {len(images)} изображений для загрузки.")
 
-        # Переключаемся на Telegram и вставляем файл
-        file_automation.focus_telegram()
-        file_automation.copy_paste_file(str(file_path))
+    # Загрузка файлов с адаптивным числом параллельных задач
+    logger.info("Начинается загрузка архивов...")
+    await upload_files_with_retry(client, archives, "архивы", max_parallel=20)
 
-        # Проверяем загрузку файла через Telegram API
-        uploaded = await tg_handler.check_file_uploaded(file_path.name)
-        if not uploaded:
-            print(f"Не удалось загрузить файл {file_path.name}, пропускаем.")
-            continue
+    logger.info("Начинается загрузка изображений...")
+    await upload_files_with_retry(client, images, "изображения", max_parallel=20)
 
-    await tg_handler.stop()
+    logger.info("Все файлы успешно обработаны. Завершаем работу клиента Telegram...")
+    await client.disconnect()
+    logger.info("Клиент Telegram успешно отключен.")
+
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    input_path = input("Введите путь к директории с файлами (нажмите Enter для использования пути по умолчанию): ")
+    if not input_path.strip():
+        input_path = r"E:/library/3d models/KitBash3D - Spaceships/Render"  # Значение по умолчанию
 
-
-
+    if not Path(input_path).is_dir():
+        logger.error("Указанная директория не существует. Проверьте путь и попробуйте снова.")
+    else:
+        asyncio.run(send_files(input_path))
