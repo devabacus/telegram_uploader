@@ -5,7 +5,7 @@ import os
 import asyncio
 import logging
 from datetime import datetime
-from config import *  # API_ID, API_HASH, PHONE_NUMBER должны быть определены в config.py
+from config import *  # API_ID, API_HASH, PHONE_NUMBER, CHAT_ID, TOPIC_ID
 
 # Настройка логов
 LOG_DIR = "logs"
@@ -75,7 +75,6 @@ async def upload_files(client, files, file_type):
                     CHAT_ID,
                     file=file_path,  # Используем Path для прямой отправки
                     reply_to=TOPIC_ID,
-                    # max_chunk_size=1024 * 1024
                 )
                 end_time = datetime.now()
                 elapsed_time = (end_time - start_time).total_seconds()

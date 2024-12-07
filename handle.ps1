@@ -4,4 +4,7 @@ python -m venv env
 pip install telethon
 
 python -m pip freeze > requirements.txt
-pip install pytest
+pip install pyrogram
+pip install speedtest-cli
+pip install pyautogui
+
