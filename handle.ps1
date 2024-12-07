@@ -3,3 +3,4 @@ python -m venv env
 
 pip install python-telegram-bot
 
+python -m pip freeze > requirements.txt

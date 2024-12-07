@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
-from config import *
+from src.config import *
 # Ваш токен бота
 BOT_TOKEN = TOKEN
 
